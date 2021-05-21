@@ -53,15 +53,15 @@ $font: (
 
 // Palette.
 $palette: (
-  bg: #f9faf4,
+  bg: #ffffff,
   // fg: #6daffe,
-    // fg-bold: #437fc7,
-    fg: #4a6163,
-  fg-bold: #4a6163,
-  fg-light: rgba(74, 97, 99, 0.35),
+    fg-bold: #437fc7,
+  fg: #4a6163,
+  // fg-bold: #4a6163,
+    fg-light: rgba(74, 97, 99, 0.35),
   border: rgba(255, 255, 255, 0.125),
   border-bg: rgba(255, 255, 255, 0.025),
   border2: rgba(255, 255, 255, 0.25),
   border2-bg: rgba(255, 255, 255, 0.075),
-  accent: #f9a66c,
+  accent: #edf6ff,
 );

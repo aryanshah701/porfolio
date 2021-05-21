@@ -41,14 +41,16 @@ module.exports = {
   webProjects: [
     {
       name: 'Postify',
-      description: 'Web app',
+      description: `A web-app for individuals to form communities around 
+        discussion posts and threads.`,
+      techStack: `TypeScript, React/Next.js, URQL, Node, Express, GraphQL, PostgreSQL, Docker`,
       imageSrc: 'gostudylanding',
     },
   ],
 
   otherProjects: [
     {
-      name: 'Postify',
+      name: '',
       description: 'Web app',
       imageSrc: '',
     },
