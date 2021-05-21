@@ -2,9 +2,10 @@ import React from 'react';
 import gostudyfeed from '../assets/images/gostudy-feed.png';
 import gostudylanding from '../assets/images/gostudy-landing.png';
 import postifypost from '../assets/images/postify-post.png';
+import bullsgame from '../assets/images/bulls-game.png';
 
 const HighlightProject = ({ project, idx }) => {
-  const { name, description, imageSrc, techStack } = project;
+  const { name, description, imageSrc, techStack, webLink, codeLink } = project;
   let image = null;
   switch (imageSrc) {
     case 'gostudyfeed':
@@ -15,6 +16,9 @@ const HighlightProject = ({ project, idx }) => {
       break;
     case 'postifypost':
       image = postifypost;
+      break;
+    case 'bullsgame':
+      image = bullsgame;
       break;
     default:
       break;
@@ -45,8 +49,6 @@ const HighlightProject = ({ project, idx }) => {
     id = 2;
   }
 
-  console.log('string, id, idx ', stringId, id, idx);
-
   return (
     <section
       id={stringId}
@@ -61,10 +63,14 @@ const HighlightProject = ({ project, idx }) => {
           <p>{description}</p>
           <p>Tech Stack: {techStack}</p>
           <div className="flex-div">
-            <a href="/#" className="special a-margin-right">
+            <a
+              target="_blank"
+              href={project.webLink}
+              className="special a-margin-right"
+            >
               Live View
             </a>
-            <a href="/#" className="special">
+            <a target="_blank" href={project.codeLink} className="special">
               Code
             </a>
           </div>

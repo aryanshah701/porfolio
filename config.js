@@ -43,9 +43,13 @@ module.exports = {
       name: 'Postify',
       description: `A web-app for individuals to form communities around 
         discussion posts and threads. Sign up, create posts, have 
-        discussions, and upvote your favourite posts`,
+        discussions, and upvote your favourite posts.`,
       techStack: `TypeScript, React.js/Next.js, URQL, Node.js, Express.js, 
-      GraphQL, PostgreSQL, Docker`,
+      GraphQL, PostgreSQL, Docker.`,
+      testUsername: '',
+      testPassword: '',
+      webLink: 'https://postifyy.aryanshah.tech',
+      codeLink: 'https://github.com/aryanshah701/postify',
       imageSrc: 'postifypost',
     },
     {
@@ -55,7 +59,37 @@ module.exports = {
       around your favourite study place by effortlessly adding your space 
       in just a few seconds, all made possible with the seemless 
       integration with the Google Places API.`,
-      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL`,
+      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL.`,
+      testUsername: '',
+      testPassword: '',
+      webLink: 'https://gostudy.aryanshah.tech',
+      codeLink: 'https://github.com/aryanshah701/go-study',
+      imageSrc: 'gostudylanding',
+    },
+    {
+      name: 'Bulls and Cows',
+      description: `A multiplayer game of Bulls and Cows game implemented
+      using Phoenix and React. Play with your friends, create lobbies, 
+      and check out your all time scores on the leaderboard.`,
+      techStack: `JavaScript, React, Elixir, Phoenix, Web Sockets.`,
+      testUsername: '',
+      testPassword: '',
+      webLink: 'https://bulls.aryanshah.tech',
+      codeLink: 'https://github.com/aryanshah701/phoenix-bulls-and-cows',
+      imageSrc: 'bullsgame',
+    },
+    {
+      name: 'Events',
+      description: `A web-app to find and develop your curated list 
+      of study places! See a community of like minded students develop 
+      around your favourite study place by effortlessly adding your space 
+      in just a few seconds, all made possible with the seemless 
+      integration with the Google Places API.`,
+      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL.`,
+      testUsername: '',
+      testPassword: '',
+      webLink: 'https://events.aryanshah.tech',
+      codeLink: 'https://github.com/aryanshah701/events-spa',
       imageSrc: 'gostudylanding',
     },
   ],
