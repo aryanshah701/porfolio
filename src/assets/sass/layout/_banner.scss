@@ -43,7 +43,7 @@
     @include vendor('filter', 'blur(0)');
     opacity: 1;
     border-bottom: solid 2px _palette(border);
-    font-size: 2.25em;
+    font-size: 2em;
     margin-bottom: _size(element-margin) * 0.4;
     padding-bottom: _size(element-margin) * 0.2;
   }
@@ -60,7 +60,7 @@
     font-family: _font(family-heading);
     font-size: 1em;
     font-weight: _font(weight-heading);
-    letter-spacing: _font(kern-heading);
+    letter-spacing: _font(kern-heading) * 0;
     line-height: 2;
     text-transform: uppercase;
   }

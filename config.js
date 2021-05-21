@@ -1,21 +1,18 @@
 module.exports = {
   siteTitle: "Aryan's Portfolio",
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'Portfolio website',
+  manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#5b54da',
   manifestThemeColor: '#5b54da',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`,
-  heading: 'Aryan Shah',
-  subHeading: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
-    quis rhoncus quam. Maecenas tincidunt finibus nibh a aliquam. 
-    Donec non venenatis libero, eget dictum dui. Pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-    Ut suscipit velit et elit feugiat, non semper orci posuere. Etiam et
-    risus mattis, efficitur eros eu, ultrices nibh. Aenean tempor libero
-    sit amet justo rutrum maximus.`,
+  heading: "Hi I'm Aryan, Welcome to my portfolio!",
+  subHeading: `I'm a third year undergraduate 
+  student at Northeastern University majoring in Computer Science. I am 
+  passionate about learning new technologies and building impactful software. 
+  Here are some of my personal projects, I hope you enjoy!`,
 
   // social
   socialLinks: [
@@ -80,25 +77,35 @@ module.exports = {
     },
     {
       name: 'Events',
-      description: `A web-app to find and develop your curated list 
-      of study places! See a community of like minded students develop 
-      around your favourite study place by effortlessly adding your space 
-      in just a few seconds, all made possible with the seemless 
-      integration with the Google Places API.`,
-      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL.`,
-      testUsername: '',
-      testPassword: '',
+      description: `A single page application to organize and share 
+      events built using react and phoenix. Signup, create events, 
+      invite your friends, and see their responses.`,
+      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, PostgreSQL.`,
+      testUsername: 'testuser@gmail.com',
+      testPassword: 'password123',
       webLink: 'https://events.aryanshah.tech',
       codeLink: 'https://github.com/aryanshah701/events-spa',
-      imageSrc: 'gostudylanding',
+      imageSrc: 'events',
     },
   ],
 
   otherProjects: [
     {
-      name: '',
-      description: 'Web app',
-      imageSrc: '',
+      name: "Dijkstra's Visualizer",
+      description:
+        "A create react application that visualizes Dijkstra's pathfinding algorithm.",
+      imageSrc: 'pathfinding',
+    },
+    {
+      name: 'Amazon Best Deals',
+      description: `A python web scraper that searches for the best deal and 
+        cheapest price for a product you are looking for.`,
+      imageSrc: 'bestdeals',
+    },
+    {
+      name: 'Animation and Algorithm Visualizer',
+      description: `A java applicaition that parses and renders a set of textual instructions as an animation.`,
+      imageSrc: 'visualizer',
     },
   ],
 };

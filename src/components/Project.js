@@ -1,16 +1,20 @@
 import React from 'react';
-import gostudyfeed from '../assets/images/gostudy-feed.png';
-import gostudylanding from '../assets/images/gostudy-landing.png';
+import bestdeals from '../assets/images/best-deals.jpg';
+import visualizer from '../assets/images/visualizer.png';
+import pathfinding from '../assets/images/pathfinding.png';
 
 const Project = ({ name, description, imageSrc }) => {
   let image = null;
   console.log('image src: ', imageSrc);
   switch (imageSrc) {
-    case 'gostudyfeed':
-      image = gostudyfeed;
+    case 'bestdeals':
+      image = bestdeals;
       break;
-    case 'gostudylanding':
-      image = gostudylanding;
+    case 'visualizer':
+      image = visualizer;
+      break;
+    case 'pathfinding':
+      image = pathfinding;
       break;
     default:
       break;
@@ -24,7 +28,7 @@ const Project = ({ name, description, imageSrc }) => {
       <h3 className="major">{name}</h3>
       <p>{description}</p>
       <a href="/#" className="special">
-        Learn more
+        Code
       </a>
     </article>
   );
