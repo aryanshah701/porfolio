@@ -61,7 +61,7 @@ module.exports = {
       testPassword: '',
       webLink: 'https://gostudy.aryanshah.tech',
       codeLink: 'https://github.com/aryanshah701/go-study',
-      imageSrc: 'gostudylanding',
+      imageSrc: 'gostudyfeed',
     },
     {
       name: 'Bulls and Cows',
@@ -73,7 +73,7 @@ module.exports = {
       testPassword: '',
       webLink: 'https://bulls.aryanshah.tech',
       codeLink: 'https://github.com/aryanshah701/phoenix-bulls-and-cows',
-      imageSrc: 'bullsgame',
+      imageSrc: 'bullslobby',
     },
     {
       name: 'Events',

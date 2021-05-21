@@ -3,6 +3,7 @@ import gostudyfeed from '../assets/images/gostudy-feed.png';
 import gostudylanding from '../assets/images/gostudy-landing.png';
 import postifypost from '../assets/images/postify-post.png';
 import bullsgame from '../assets/images/bulls-game.png';
+import bullslobby from '../assets/images/bulls-lobby.png';
 import events from '../assets/images/events.png';
 
 const HighlightProject = ({ project, idx }) => {
@@ -29,6 +30,9 @@ const HighlightProject = ({ project, idx }) => {
       break;
     case 'bullsgame':
       image = bullsgame;
+      break;
+    case 'bullslobby':
+      image = bullslobby;
       break;
     case 'events':
       image = events;
@@ -68,7 +72,7 @@ const HighlightProject = ({ project, idx }) => {
       className={`wrapper ${altClass} spotlight style${id}`}
     >
       <div className="inner">
-        <a href="/#" className="image">
+        <a target="_blank" rel="noreferrer" href={webLink} className="image">
           <img src={image} alt="Project" />
         </a>
         <div className="content">
