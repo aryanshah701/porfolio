@@ -54,7 +54,7 @@ module.exports = {
       description: `A web-app to find and develop your curated list 
       of study places! See a community of like minded students develop 
       around your favourite study place by effortlessly adding your space 
-      in just a few seconds, all made possible with the seemless 
+      in just a few seconds, all made possible with a seemless 
       integration with the Google Places API.`,
       techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL.`,
       testUsername: '',
@@ -78,7 +78,7 @@ module.exports = {
     {
       name: 'Events',
       description: `A single page application to organize and share 
-      events built using react and phoenix. Signup, create events, 
+      events built using Phoenix and React. Signup, create events, 
       invite your friends, and see their responses.`,
       techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, PostgreSQL.`,
       testUsername: 'testuser@gmail.com',
