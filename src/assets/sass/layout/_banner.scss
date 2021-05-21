@@ -7,7 +7,7 @@
 /* Banner */
 
 #banner {
-  @include padding(8em, 0, (0, 0, _size(wrapper-edges, large) * -0.02, 0));
+  @include padding(8em, 0, (0, 0, _size(wrapper-edges, large) * -3, 0));
 
   .inner {
     margin: 0 auto;

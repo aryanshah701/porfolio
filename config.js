@@ -29,15 +29,28 @@ module.exports = {
       name: 'Email',
       url: 'mailto:shah.ary@northeastern.edu',
     },
+    {
+      icon: 'fab fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/aryanshah791/',
+    },
   ],
-  phone: '',
   address: 'Boston, M.A',
 
   // projects
-  projects: [
+  webProjects: [
     {
       name: 'Postify',
       description: 'Web app',
+      imageSrc: 'gostudylanding',
+    },
+  ],
+
+  otherProjects: [
+    {
+      name: 'Postify',
+      description: 'Web app',
+      imageSrc: '',
     },
   ],
 };

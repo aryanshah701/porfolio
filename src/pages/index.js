@@ -21,11 +21,13 @@ const IndexPage = () => (
         <div className="inner">
           <h2 className="major">Web</h2>
           <section className="features">
-            {config.projects.map(project => {
+            {config.webProjects.map((project, idx) => {
               return (
                 <Project
                   name={project.name}
                   description={project.description}
+                  imageSrc={project.imageSrc}
+                  key={idx}
                 />
               );
             })}
@@ -36,14 +38,14 @@ const IndexPage = () => (
         <div className="inner">
           <h2 className="major">Scripts/Games</h2>
           <section className="features">
-            {config.projects.map(project => {
-              return (
-                <Project
-                  name={project.name}
-                  description={project.description}
-                />
-              );
-            })}
+            {config.otherProjects.map((project, idx) => (
+              <Project
+                name={project.name}
+                description={project.description}
+                imageSrc={project.imageSrc}
+                key={idx}
+              />
+            ))}
           </section>
         </div>
       </section>
