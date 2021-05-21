@@ -20,9 +20,9 @@ const HighlightProject = ({ project, idx }) => {
       break;
   }
 
-  const id = (idx % 3) + 1;
+  let id = idx + 1;
   let stringId = '';
-  switch (id) {
+  switch (idx) {
     case 1:
       stringId = 'one';
       break;
@@ -32,11 +32,20 @@ const HighlightProject = ({ project, idx }) => {
     case 3:
       stringId = 'three';
       break;
+    case 4:
+      stringId = 'two';
+      break;
     default:
       break;
   }
 
   const altClass = id % 2 === 0 ? 'alt' : '';
+
+  if (idx > 3) {
+    id = 2;
+  }
+
+  console.log('string, id, idx ', stringId, id, idx);
 
   return (
     <section
