@@ -28,6 +28,7 @@
       margin-top: -1.75em;
       position: relative;
       width: calc(100% + #{3.5em});
+      align-items: flex-start;
 
       img {
         border-radius: _size(border-radius) _size(border-radius) 0 0;
@@ -36,7 +37,7 @@
     }
   }
 
-  @include breakpoint('<=xlarge') {
+  @include breakpoint('>medium') {
     article {
       &:nth-child(3n) {
         margin-right: 0;
