@@ -25,7 +25,10 @@ const HighlightProject = ({ name, description, imageSrc, idx }) => {
           <h2 className="major">{name}</h2>
           <p>{description}</p>
           <a href="/#" className="special">
-            Learn more
+            Live View
+          </a>
+          <a href="/#" className="special">
+            Code
           </a>
         </div>
       </div>
