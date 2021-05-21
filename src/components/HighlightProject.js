@@ -1,6 +1,7 @@
 import React from 'react';
 import gostudyfeed from '../assets/images/gostudy-feed.png';
 import gostudylanding from '../assets/images/gostudy-landing.png';
+import postifypost from '../assets/images/postify-post.png';
 
 const HighlightProject = ({ project, idx }) => {
   const { name, description, imageSrc, techStack } = project;
@@ -11,6 +12,9 @@ const HighlightProject = ({ project, idx }) => {
       break;
     case 'gostudylanding':
       image = gostudylanding;
+      break;
+    case 'postifypost':
+      image = postifypost;
       break;
     default:
       break;
@@ -47,12 +51,14 @@ const HighlightProject = ({ project, idx }) => {
           <h2 className="major">{name}</h2>
           <p>{description}</p>
           <p>Tech Stack: {techStack}</p>
-          <a href="/#" className="special">
-            Live View
-          </a>
-          <a href="/#" className="special">
-            Code
-          </a>
+          <div className="flex-div">
+            <a href="/#" className="special a-margin-right">
+              Live View
+            </a>
+            <a href="/#" className="special">
+              Code
+            </a>
+          </div>
         </div>
       </div>
     </section>

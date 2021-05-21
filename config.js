@@ -46,7 +46,7 @@ module.exports = {
         discussions, and upvote your favourite posts`,
       techStack: `TypeScript, React.js/Next.js, URQL, Node.js, Express.js, 
       GraphQL, PostgreSQL, Docker`,
-      imageSrc: 'gostudylanding',
+      imageSrc: 'postifypost',
     },
     {
       name: 'GoStudy',
