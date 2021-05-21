@@ -69,7 +69,7 @@ const HighlightProject = ({ project, idx }) => {
     >
       <div className="inner">
         <a href="/#" className="image">
-          <img src={image} alt="Project Image" />
+          <img src={image} alt="Project" />
         </a>
         <div className="content">
           <h2 className="major">{name}</h2>
@@ -86,11 +86,17 @@ const HighlightProject = ({ project, idx }) => {
             <a
               target="_blank"
               href={webLink}
+              rel="noreferrer"
               className="special a-margin-right"
             >
               Live View
             </a>
-            <a target="_blank" href={codeLink} className="special">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={codeLink}
+              className="special"
+            >
               Code
             </a>
           </div>

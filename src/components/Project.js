@@ -29,17 +29,22 @@ const Project = ({ project }) => {
       <h3 className="major">{name}</h3>
       <p>{description}</p>
       {webLink ? (
-        <a target="_blank" href={webLink} className="special">
+        <a target="_blank" rel="noreferrer" href={webLink} className="special">
           Live View
         </a>
       ) : null}
       {codeLink ? (
-        <a target="_blank" href={codeLink} className="special">
+        <a target="_blank" rel="noreferrer" href={codeLink} className="special">
           Code
         </a>
       ) : null}
       {otherLink ? (
-        <a target="_blank" href={otherLink} className="special">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={otherLink}
+          className="special"
+        >
           Project
         </a>
       ) : null}

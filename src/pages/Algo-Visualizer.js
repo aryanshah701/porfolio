@@ -64,7 +64,7 @@ const IndexPage = () => (
             />
           </div>
           <h2 class="code-line" data-line-start="41" data-line-end="42">
-            <a id="Views_41"></a>Views
+            Views
           </h2>
           <p class="has-line-data" data-line-start="43" data-line-end="44">
             The application supports rendering the animation in 3 types of
@@ -114,7 +114,7 @@ const IndexPage = () => (
             </li>
           </ol>
           <h2 class="code-line" data-line-start={69} data-line-end={70}>
-            <a id="Algorithmic_Visualizations_69"></a>Algorithmic Visualizations
+            Algorithmic Visualizations
           </h2>
           <p class="has-line-data" data-line-start="71" data-line-end="72">
             The project has two Java scripts that create .txt files that enable
@@ -146,7 +146,7 @@ const IndexPage = () => (
             />
           </div>
           <h2 class="code-line" data-line-start={53} data-line-end={54}>
-            <a id="Input_Formatting_53"></a>Input Formatting
+            Input Formatting
           </h2>
           <p class="has-line-data" data-line-start="55" data-line-end="56">
             The input files need to be follow the following guidelines for the
@@ -179,7 +179,7 @@ const IndexPage = () => (
             </li>
           </ol>
           <h3 class="code-line" data-line-start="63" data-line-end="64">
-            <a id="Sample_Input_Files_63"></a>Sample Input Files
+            Sample Input Files
           </h3>
           <p class="has-line-data" data-line-start="65" data-line-end="66">
             To gain a better insight into the type of input the application
@@ -191,7 +191,7 @@ const IndexPage = () => (
             few cool animations.
           </p>
           <h2 class="code-line" data-line-start="76" data-line-end="77">
-            <a id="Authors_76"></a>Authors
+            Authors
           </h2>
           <ul>
             <li class="has-line-data" data-line-start="78" data-line-end="79">
@@ -207,7 +207,7 @@ const IndexPage = () => (
           </ul>
 
           <h2 class="code-line" data-line-start="81" data-line-end="82">
-            <a id="Acknowledgments_81"></a>Acknowledgments
+            Acknowledgments
           </h2>
           <ul>
             <li class="has-line-data" data-line-start="83" data-line-end="84">
