@@ -38,12 +38,24 @@ module.exports = {
   address: 'Boston, M.A',
 
   // projects
-  webProjects: [
+  higlightProjects: [
     {
       name: 'Postify',
       description: `A web-app for individuals to form communities around 
-        discussion posts and threads.`,
-      techStack: `TypeScript, React/Next.js, URQL, Node, Express, GraphQL, PostgreSQL, Docker`,
+        discussion posts and threads. Sign up, create posts, have 
+        discussions, and upvote your favourite posts`,
+      techStack: `TypeScript, React.js/Next.js, URQL, Node.js, Express.js, 
+      GraphQL, PostgreSQL, Docker`,
+      imageSrc: 'gostudylanding',
+    },
+    {
+      name: 'GoStudy',
+      description: `A web-app to find and develop your curated list 
+      of study places! See a community of like minded students develop 
+      around your favourite study place by effortlessly adding your space 
+      in just a few seconds, all made possible with the seemless 
+      integration with the Google Places API.`,
+      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL`,
       imageSrc: 'gostudylanding',
     },
   ],

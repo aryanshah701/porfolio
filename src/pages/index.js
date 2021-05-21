@@ -17,36 +17,11 @@ const IndexPage = () => (
       </div>
     </section>
 
-    {config.webProjects.map((project, idx) => {
-      return (
-        <HighlightProject
-          name={project.name}
-          description={project.description}
-          imageSrc={project.imageSrc}
-          key={idx}
-          idx={idx}
-        />
-      );
-    })}
-
     <section id="wrapper">
-      <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major">Web</h2>
-          <section className="features">
-            {config.webProjects.map((project, idx) => {
-              return (
-                <Project
-                  name={project.name}
-                  description={project.description}
-                  imageSrc={project.imageSrc}
-                  key={idx}
-                />
-              );
-            })}
-          </section>
-        </div>
-      </section>
+      {config.higlightProjects.map((project, idx) => {
+        return <HighlightProject project={project} key={idx} idx={idx} />;
+      })}
+
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Scripts/Games</h2>
