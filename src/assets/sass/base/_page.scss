@@ -61,6 +61,12 @@ html {
   display: flex;
 }
 
+@include breakpoint('<=medium') {
+  .flex-div {
+    display: block;
+  }
+}
+
 .a-margin-right {
   margin-right: 1.5em !important;
 }

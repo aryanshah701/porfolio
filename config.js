@@ -95,17 +95,20 @@ module.exports = {
       description:
         "A create react application that visualizes Dijkstra's pathfinding algorithm.",
       imageSrc: 'pathfinding',
+      codeLink: 'https://github.com/aryanshah701/pathfinding-visualizer',
     },
     {
       name: 'Amazon Best Deals',
       description: `A python web scraper that searches for the best deal and 
         cheapest price for a product you are looking for.`,
       imageSrc: 'bestdeals',
+      codeLink: 'https://github.com/aryanshah701/amazon-best-deals',
     },
     {
       name: 'Animation and Algorithm Visualizer',
       description: `A java applicaition that parses and renders a set of textual instructions as an animation.`,
       imageSrc: 'visualizer',
+      otherLink: '/Algo-Visualizer',
     },
   ],
 };

@@ -24,15 +24,10 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Scripts/Games</h2>
+          <h2 className="major">Scripts/Visualizations</h2>
           <section className="features">
             {config.otherProjects.map((project, idx) => (
-              <Project
-                name={project.name}
-                description={project.description}
-                imageSrc={project.imageSrc}
-                key={idx}
-              />
+              <Project project={project} key={idx} />
             ))}
           </section>
         </div>
