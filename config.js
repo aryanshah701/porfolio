@@ -95,6 +95,7 @@ module.exports = {
       description:
         "A create react application that visualizes Dijkstra's pathfinding algorithm.",
       imageSrc: 'pathfinding',
+      webLink: 'https://visualizer.aryanshah.tech',
       codeLink: 'https://github.com/aryanshah701/pathfinding-visualizer',
     },
     {

@@ -4,7 +4,7 @@ import visualizer from '../assets/images/visualizer.png';
 import pathfinding from '../assets/images/pathfinding.png';
 
 const Project = ({ project }) => {
-  const { name, description, imageSrc, codeLink, otherLink } = project;
+  const { name, description, imageSrc, codeLink, otherLink, webLink } = project;
 
   let image = null;
   switch (imageSrc) {
@@ -28,6 +28,11 @@ const Project = ({ project }) => {
       </a>
       <h3 className="major">{name}</h3>
       <p>{description}</p>
+      {webLink ? (
+        <a target="_blank" href={webLink} className="special">
+          Live View
+        </a>
+      ) : null}
       {codeLink ? (
         <a target="_blank" href={codeLink} className="special">
           Code
