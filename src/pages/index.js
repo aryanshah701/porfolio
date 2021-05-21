@@ -30,13 +30,6 @@ const IndexPage = () => (
               );
             })}
           </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
         </div>
       </section>
       <section id="four" className="wrapper alt style1">
