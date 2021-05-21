@@ -9,7 +9,13 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`,
   heading: 'Aryan Shah',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  subHeading: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
+    quis rhoncus quam. Maecenas tincidunt finibus nibh a aliquam. 
+    Donec non venenatis libero, eget dictum dui. Pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Ut suscipit velit et elit feugiat, non semper orci posuere. Etiam et
+    risus mattis, efficitur eros eu, ultrices nibh. Aenean tempor libero
+    sit amet justo rutrum maximus.`,
 
   // social
   socialLinks: [
