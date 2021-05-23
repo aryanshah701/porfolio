@@ -59,8 +59,9 @@
     opacity: 1;
     font-family: _font(family-heading);
     font-size: 1em;
-    font-weight: _font(weight-heading);
-    letter-spacing: _font(kern-heading) * 0;
+    font-weight: _font(weight-bold);
+    letter-spacing: _font(kern-heading) * 0.1;
+    word-spacing: _font(kern-heading) * 1;
     line-height: 2;
     text-transform: uppercase;
   }

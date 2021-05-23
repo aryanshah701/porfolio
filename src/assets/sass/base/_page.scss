@@ -67,6 +67,31 @@ html {
   }
 }
 
+.sm-flex-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@include breakpoint('<=xsmall') {
+  .sm-flex-div {
+    display: block;
+  }
+}
+
 .a-margin-right {
   margin-right: 1.5em !important;
+}
+
+.tech-badge {
+  font-weight: bold;
+  text-align: center;
+  margin-right: 0.75rem;
+  padding: 0 0.5rem;
+  border: 2px solid _palette(accent2);
+  border-radius: 20px;
+}
+
+.tech-bage:hover {
+  color: white;
+  background-color: _palette(accent2);
 }

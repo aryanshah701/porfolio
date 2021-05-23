@@ -78,7 +78,13 @@ const HighlightProject = ({ project, idx }) => {
         <div className="content">
           <h2 className="major">{name}</h2>
           <p>{description}</p>
-          <p>Tech Stack: {techStack}</p>
+          <div className="sm-flex-div">
+            {techStack.map((tech, idx) => (
+              <p key={idx} className="tech-badge">
+                {tech}
+              </p>
+            ))}
+          </div>
           {testUsername ? (
             <p>
               Test Credentials:

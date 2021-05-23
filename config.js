@@ -41,8 +41,16 @@ module.exports = {
       description: `A web-app for individuals to form communities around 
         discussion posts and threads. Sign up, create posts, have 
         discussions, and upvote your favourite posts.`,
-      techStack: `TypeScript, React.js/Next.js, URQL, Node.js, Express.js, 
-      GraphQL, PostgreSQL, Docker.`,
+      techStack: [
+        'TypeScript',
+        'React.js/Next.js',
+        'URQL',
+        'Node.js',
+        'Express.js',
+        'GraphQL',
+        'PostgreSQL',
+        'Docker',
+      ],
       testUsername: '',
       testPassword: '',
       webLink: 'https://postifyy.aryanshah.tech',
@@ -56,7 +64,15 @@ module.exports = {
       around your favourite study place by effortlessly adding your space 
       in just a few seconds, all made possible with a seemless 
       integration with the Google Places API.`,
-      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, Web Sockets, PostgreSQL.`,
+      techStack: [
+        'JavaScript',
+        'React.js/Redux',
+        'Elixir',
+        'Phoenix',
+        'REST',
+        'Web Sockets',
+        'PostgreSQL',
+      ],
       testUsername: '',
       testPassword: '',
       webLink: 'https://gostudy.aryanshah.tech',
@@ -68,7 +84,7 @@ module.exports = {
       description: `A multiplayer game of Bulls and Cows game implemented
       using Phoenix and React. Play with your friends, create lobbies, 
       and check out your all time scores on the leaderboard.`,
-      techStack: `JavaScript, React, Elixir, Phoenix, Web Sockets.`,
+      techStack: ['JavaScript', 'React', 'Elixir', 'Phoenix', 'Web Sockets'],
       testUsername: '',
       testPassword: '',
       webLink: 'https://bulls.aryanshah.tech',
@@ -80,7 +96,14 @@ module.exports = {
       description: `A single page application to organize and share 
       events built using Phoenix and React. Signup, create events, 
       invite your friends, and see their responses.`,
-      techStack: `JavaScript, React.js/Redux, Elixir, Phoenix, REST, PostgreSQL.`,
+      techStack: [
+        'JavaScript',
+        'React.js/Redux',
+        'Elixir',
+        'Phoenix',
+        'REST',
+        'PostgreSQL',
+      ],
       testUsername: 'testuser@gmail.com',
       testPassword: 'password123',
       webLink: 'https://events.aryanshah.tech',

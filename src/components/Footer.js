@@ -9,7 +9,7 @@ export default function Footer() {
         <ul className="copyright">
           <li>&copy; Solid State. All rights reserved.</li>
           <li>
-            Design inspired by: <a href="http://html5up.net">HTML5 UP</a>
+            Redesigned with <span role="img">❤</span>️by Aryan Shah
           </li>
         </ul>
       </div>
