@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
 import Footer from './Footer';
+import websiteicon from '../assets/img/website-icon.png';
 
 class Layout extends Component {
   constructor(props) {
@@ -45,7 +46,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Developer Portfolio' },
+                { property: 'og:image', content: websiteicon },
+                { name: 'description', content: 'Aryan Developer Portfolio' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
